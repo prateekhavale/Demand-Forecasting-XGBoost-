@@ -52,14 +52,14 @@ Prediction & Comparison
 * Input file: sales_data.csv
 * Key columns:
 ```
-** Date
-** Store ID
-** Product ID
-** Demand
-** Price
-** Promotion
-** Inventory Level
-** Weather Condition
+ Date
+ Store ID
+ Product ID
+ Demand
+ Price
+ Promotion
+ Inventory Level
+ Weather Condition
 ```
 
 ---
@@ -80,17 +80,23 @@ The project performs:
 ## Feature Engineering
 
 * Time Features
-** Day, Month, Year
-** Day of Week
-** Week of Year
+```
+ Day, Month, Year
+ Day of Week
+ Week of Year
+```
 
 * Lag Features
-** lag_2, lag_3, lag_7, lag_14, lag_30
+```
+ lag_2, lag_3, lag_7, lag_14, lag_30
+```
 
 * Rolling Features
-** rolling_mean_7
-** rolling_mean_14
-** rolling_std_7
+```
+ rolling_mean_7
+ rolling_mean_14
+ rolling_std_7
+```
 
 ---
 
