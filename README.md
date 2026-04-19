@@ -20,8 +20,8 @@ This project focuses on:
 * Exploratory Data Analysis (EDA)
 * XGBoost regression model
 * Hyperparameter tuning:
-* **GridSearchCV
-* **Optuna optimization
+ **GridSearchCV
+ **Optuna optimization
 * Evaluation using MAE (Mean Absolute Error)
 
 ---
