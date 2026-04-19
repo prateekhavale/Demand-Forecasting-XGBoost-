@@ -105,10 +105,11 @@ The project performs:
 ### Base Model
 * XGBoost Regressor
 * Key parameters:
-** n_estimators = 300
-** max_depth = 8
-** learning_rate = 0.05
-
+```
+ n_estimators = 300
+ max_depth = 8
+ learning_rate = 0.05
+```
 ### Evaluation Metric
 * Mean Absolute Error (MAE)
 
@@ -159,10 +160,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost optuna
 * Place dataset: sales_data.csv
 * Run the notebook/script
 * Outputs:
-** Demand predictions
-** Model evaluation
-** Visual insights
-
+```
+ Demand predictions
+ Model evaluation
+ Visual insights
+```
 ---
 
 ## Conclusion
